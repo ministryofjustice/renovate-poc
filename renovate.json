@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "enabledManagers": ["gradle", "gradle-wrapper", "dockerfile", "docker-compose", "helmv3", "circleci"],
+  "packageRules": [
+    {
+      "matchDatasources": ["docker"],
+      "allowedVersions": "17-slim"
+    },
+    {
+      "matchDatasources": ["circleci"],
+      "matchUpdateTypes": ["minor"],
+      "enabled": true
+    },
+    {
+      "matchDatasources": ["circleci"],
+      "matchUpdateTypes": ["major", "patch"],
+      "enabled": false
+    }
+  ]
+}
