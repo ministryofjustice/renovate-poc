@@ -9,7 +9,8 @@
     },
     {
       "matchDatasources": ["orb"],
-      "matchUpdateTypes": ["minor"]
+      "matchUpdateTypes": ["major"],
+      "enabled": false
     }
   ]
 }
