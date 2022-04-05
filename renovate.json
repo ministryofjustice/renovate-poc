@@ -5,16 +5,16 @@
   "enabledManagers": ["gradle", "gradle-wrapper", "dockerfile", "docker-compose", "helmv3", "circleci"],
   "packageRules": [
     {
-      "matchPackagePatterns": ["gradle", "gradle-wrapper"],
-      "groupName": "gradle"
+      "matchDatasources": ["gradle", "gradle-wrapper"],
+      "groupName": "gradle",
+      "groupSlug": "gradle",
+      "separateMajorMinor": false
     },
     {
-      "matchPackagePatterns": ["dockerfile", "docker-compose", "helmv3"],
-      "groupName": "docker-helm"
-    },
-    {
-      "matchPackagePatterns": ["circleci"],
-      "groupName": "circleci"
+      "matchDatasources": ["dockerfile", "docker-compose", "helmv3"],
+      "groupName": "docker-helm",
+      "groupSlug": "docker-helm",
+      "separateMajorMinor": false
     },
     {
       "matchDatasources": ["docker"],
