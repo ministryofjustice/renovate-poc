@@ -1,6 +1,6 @@
 {
   "role": {
-    "name": "hmpps-template-kotlin"
+    "name": "renovate-poc"
   },
   "customDimensions": {
     "service.version": "${BUILD_NUMBER}"

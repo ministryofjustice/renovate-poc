@@ -1,11 +1,11 @@
-package uk.gov.justice.digital.hmpps.hmppstemplatepackagename
+package uk.gov.justice.digital.hmpps.renovatepoc
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication()
-class HmppsTemplateKotlin
+class RenovatePoc
 
 fun main(args: Array<String>) {
-  runApplication<HmppsTemplateKotlin>(*args)
+  runApplication<RenovatePoc>(*args)
 }
