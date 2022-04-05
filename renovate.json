@@ -6,6 +6,10 @@
     {
       "matchDatasources": ["docker"],
       "allowedVersions": "17-slim"
+    },
+    {
+      "matchDatasources": ["orb"],
+      "matchUpdateTypes": ["minor"]
     }
   ]
 }
