@@ -1,6 +1,6 @@
 plugins {
-  id("uk.gov.justice.hmpps.gradle-spring-boot") version "4.1.3"
-  kotlin("plugin.spring") version "1.6.20"
+  id("uk.gov.justice.hmpps.gradle-spring-boot") version "4.1.2"
+  kotlin("plugin.spring") version "1.6"
 }
 
 configurations {
@@ -9,6 +9,7 @@ configurations {
 
 dependencies {
   implementation("org.springframework.boot:spring-boot-starter-webflux")
+  testImplementation("org.mockito:mockito-inline:4.3.1")
 }
 
 java {
