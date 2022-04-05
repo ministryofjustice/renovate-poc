@@ -12,6 +12,11 @@
       "matchDatasources": ["circleci"],
       "matchUpdateTypes": ["minor"],
       "enabled": true
+    },
+    {
+      "matchDatasources": ["circleci"],
+      "matchUpdateTypes": ["major", "patch"],
+      "enabled": false
     }
   ]
 }
