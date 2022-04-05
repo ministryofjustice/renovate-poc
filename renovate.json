@@ -5,16 +5,6 @@
   "enabledManagers": ["gradle", "gradle-wrapper", "dockerfile", "docker-compose", "helmv3", "circleci"],
   "packageRules": [
     {
-      "matchDatasources": ["gradle", "gradle-wrapper"],
-      "matchPackagePatterns": ["*"],
-      "groupName": "gradle"
-    },
-    {
-      "matchDatasources": ["dockerfile", "docker-compose", "helmv3"],
-      "matchPackagePatterns": ["*"],
-      "groupName": "docker-helm"
-    },
-    {
       "matchDatasources": ["docker"],
       "allowedVersions": "17-slim"
     },
