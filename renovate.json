@@ -5,16 +5,12 @@
   "enabledManagers": ["gradle", "gradle-wrapper", "dockerfile", "docker-compose", "helmv3", "circleci"],
   "packageRules": [
     {
-      "matchDatasources": ["gradle", "gradle-wrapper"],
-      "groupName": "gradle",
-      "groupSlug": "gradle",
-      "separateMajorMinor": false
+      "matchDatasources": ["org", "uk.gov", "gradle"],
+      "groupName": "gradle"
     },
     {
-      "matchDatasources": ["dockerfile", "docker-compose", "helmv3"],
-      "groupName": "docker-helm",
-      "groupSlug": "docker-helm",
-      "separateMajorMinor": false
+      "matchPackagePatterns": ["openjdk", "generic-"],
+      "groupName": "docker-helm"
     },
     {
       "matchDatasources": ["docker"],
