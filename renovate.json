@@ -11,7 +11,8 @@
     },
     {
       "matchDatasources": ["orb"],
-      "allowedVersions": "/^3\\.[0-9]+?$/"
+      "allowedVersions": "/^3\\.[0-9]+?$/",
+      "rangeStrategy": "replace"
     }
   ]
 }
