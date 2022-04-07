@@ -9,12 +9,12 @@
       "allowedVersions": "17-slim"
     },
     {
-      "matchDatasources": ["circleci"],
+      "matchDatasources": ["orb"],
       "matchUpdateTypes": ["minor"],
       "enabled": true
     },
     {
-      "matchDatasources": ["circleci"],
+      "matchDatasources": ["orb"],
       "matchUpdateTypes": ["major", "patch"],
       "enabled": false
     }
