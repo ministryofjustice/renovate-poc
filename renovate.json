@@ -11,13 +11,7 @@
     },
     {
       "matchDatasources": ["orb"],
-      "matchUpdateTypes": ["minor"],
-      "enabled": true
-    },
-    {
-      "matchDatasources": ["orb"],
-      "matchUpdateTypes": ["major", "patch"],
-      "enabled": false
+      "allowedVersions": "/^3\\.[0-9]+?$/"
     }
   ]
 }
