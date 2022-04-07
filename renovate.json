@@ -8,11 +8,6 @@
     {
       "matchDatasources": ["docker"],
       "allowedVersions": "17-slim"
-    },
-    {
-      "matchDatasources": ["orb"],
-      "allowedVersions": "/^3\\.[0-9]+?$/",
-      "rangeStrategy": "replace"
     }
   ]
 }
