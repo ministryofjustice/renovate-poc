@@ -14,10 +14,5 @@
       "matchDatasources": ["docker"],
       "allowedVersions": "17-slim"
     }
-  ],
-  "docker-compose": {
-    "fileMatch": [
-      "(^|/)docker-compose.*.\\.ya?ml$"
-    ]
-  }
+  ]
 }
