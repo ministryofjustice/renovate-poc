@@ -16,7 +16,8 @@
     },
     {
       "matchPackagePatterns": ["ministryofjustice/hmpps"],
-      "allowedVersions": "/^[0-9]+\\.[0-9]+\\?$/"
+      "allowedVersions": "/^[0-9]+\\.[0-9]+\\?$/",
+      "rangeStrategy": "replace"
     }
   ]
 }
