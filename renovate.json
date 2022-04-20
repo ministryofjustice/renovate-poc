@@ -13,6 +13,10 @@
     {
       "matchDatasources": ["docker"],
       "allowedVersions": "17-slim"
+    },
+    {
+      "matchPackagePatterns": ["ministryofjustice/hmpps"],
+      "matchCurrentVersion": "/^3\\./"
     }
   ]
 }
