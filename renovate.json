@@ -18,7 +18,7 @@
       "matchDatasources": ["orb"],
       "matchPackagePatterns": ["ministryofjustice/hmpps"],
       "allowedVersions": "/^[0-9]+\\.[0-9]+$/",
-      "rangeStrategy": "replace"
+      "rangeStrategy": "bump"
     }
   ]
 }
