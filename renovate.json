@@ -8,16 +8,11 @@
     "after 9am every weekday",
     "before 5pm every weekday"
   ],
-  "enabledManagers": ["gradle", "gradle-wrapper", "dockerfile", "docker-compose", "helmv3", "circleci"],
+  "enabledManagers": ["gradle", "gradle-wrapper", "dockerfile", "docker-compose", "helmv3"],
   "packageRules": [
     {
       "matchDatasources": ["docker"],
       "allowedVersions": "17-slim"
-    },
-    {
-      "matchDatasources": ["orb"],
-      "matchPackageNames": ["hmpps"],
-      "versioning": "semver"
     }
   ]
 }
