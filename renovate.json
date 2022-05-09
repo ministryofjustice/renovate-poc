@@ -17,8 +17,7 @@
     {
       "matchDatasources": ["orb"],
       "matchPackageNames": ["hmpps"],
-      "versioning": "semver",
-      "allowedVersions": "5"
+      "versioning": "semver"
     }
   ]
 }
