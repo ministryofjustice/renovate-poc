@@ -16,7 +16,7 @@
     },
     {
       "matchDatasources": ["orb"],
-      "matchPackageNames": ["ministryofjustice/hmpps"],
+      "matchPackageNames": ["hmpps"],
       "versioning": "regex:^(?<compatibility>.*)-v?(?<major>\\d+)\\.(?<minor>\\d+)?$"
     }
   ]
