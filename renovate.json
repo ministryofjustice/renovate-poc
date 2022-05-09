@@ -17,7 +17,7 @@
     {
       "matchDatasources": ["orb"],
       "matchPackageNames": ["hmpps"],
-      "allowedVersions": "/^[0-9]+\\.[0-9]+$/"
+      "allowedVersions": "5"
     }
   ]
 }
