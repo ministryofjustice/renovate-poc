@@ -9,7 +9,7 @@ configurations {
 
 dependencies {
   implementation("org.springframework.boot:spring-boot-starter-webflux")
-  testImplementation("org.mockito:mockito-inline:4.4.0")
+  testImplementation("org.mockito:mockito-inline:4.5.1")
 }
 
 java {
