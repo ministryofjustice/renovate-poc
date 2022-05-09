@@ -17,7 +17,7 @@
     {
       "matchDatasources": ["orb"],
       "matchPackageNames": ["hmpps"],
-      "versioning": "regex:^(?<compatibility>.*)-v?(?<major>\\d+)\\.(?<minor>\\d+)?$"
+      "matchCurrentVersion": "/^5\\./"
     }
   ]
 }
