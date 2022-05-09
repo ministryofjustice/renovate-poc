@@ -13,11 +13,6 @@
     {
       "matchDatasources": ["docker"],
       "allowedVersions": "17-slim"
-    },
-    {
-      "matchDatasources": ["orb"],
-      "matchPackageNames": ["ministryofjustice/hmpps"],
-      "allowedVersions": "5"
     }
   ]
 }
